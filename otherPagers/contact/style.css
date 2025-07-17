@@ -1,0 +1,1038 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+a {
+    text-decoration: none;
+}
+
+p,
+a {
+    font-family: Montserrat;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    width: 87.92%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pagers {
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+
+    z-index: 5;
+    background-color: #fff;
+}
+
+.navElements {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgb(0, 0, 0);
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+.logAndRegElements {
+    color: rgb(107, 88, 88);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.hoverNavElements {
+    height: 110%;
+    padding-top: 16px;
+}
+
+.logRegDiv {
+    padding-top: 16px;
+    height: 110%;
+}
+
+.hoverNavElements:hover {
+    background-color: rgb(231, 231, 231);
+    transition: 1s;
+}
+
+.infoAboutCompanyHeader {
+    height: 91px;
+    width: 100%;
+    padding-top: 61px;
+}
+
+.infoAboutCompanyNextDiv {
+    width: 87.92%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexHeaderTelefonAndEmail {
+    display: flex;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.telHeader {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    padding-right: 27px;
+}
+
+.emailHeader {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.nameIPLogo {
+    font-size: 28px;
+}
+
+/* body */
+.h1Contact {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-align: center;
+    padding-top: 121px;
+    margin-top: -110px;
+}
+
+.underlineContact {
+    width: 240px;
+    background: rgb(255, 158, 5);
+    height: 2px;
+    margin-top: -36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardboard {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 320px;
+    border: 1px solid black;
+    margin-top: 62px;
+}
+
+.borderIMGGenDir {
+    width: 180px;
+    height: 226px;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 46px;
+    margin-left: 62px;
+}
+.imgGenDir{
+    max-width: 100%;
+    height: auto;
+}
+.infoCArdBoard {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.infoCArdBoardSmoll {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: -22px;
+}
+
+.rightTextCardBoard {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.underlineCardBoard {
+    background: rgb(255, 158, 5);
+    width: 274px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+.infoCardBoardTel {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 17px;
+}
+
+/* request */
+.request {
+
+    background: url("./img/request.png") no-repeat;
+    height: 752px;
+    margin-top: 28px;
+    background-position: center center;
+    /* определяет размер изображения на странице */
+    background-size: cover;
+    /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+    background-repeat: no-repeat;
+    /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+    вместе с остальной частью страницы или будет фиксированным */
+    background-attachment: scroll;
+}
+
+.labelRequest {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.lineRequest {
+    width: 400px;
+    background: rgb(255, 158, 5);
+    height: 2px;
+    margin-top: -42px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputPlace {
+    display: flex;
+    margin-top: 105px;
+    width: 87.71%;
+    max-width: 1684px;
+    height: 187px;
+    border-radius: 15px;
+    border: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inputPlace {
+    background: url(./img/comment.png) no-repeat center left;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+}
+
+textarea::placeholder {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+}
+
+textarea {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    resize: none;
+}
+
+.downElementsOnTheInput {
+    width: 87.71%;
+    max-width: 1744px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.policy {
+    width: 47%;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.policy1 {
+    width: 47%;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: none;
+}
+
+.btnUploudFile {
+    border-radius: 15px;
+    background: rgb(241, 237, 237);
+    width: 239px;
+    height: 53px;
+    margin-top: 0px;
+    border: 0px;
+    margin-left: 13.02%;
+    margin-top: 15px;
+    margin-right: 15px;
+  
+}
+
+.btnTextInDivFile {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.upFileAA {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.btnTextInDiv1 {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.btnImgMoreViev1 {
+    border-radius: 15px;
+    background: rgb(255, 158, 5);
+
+    width: 239px;
+    height: 53px;
+    margin-top: 15px;
+    border: 0px;
+
+}
+.btnImgMoreViev1:hover{
+    background: rgb(255, 174, 44);
+}
+.request2btnDiv {
+    display: flex;
+}
+/* footer */
+.upFooterElements {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 768px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thirdthColumn {
+    width: 120%;
+}
+
+.topColumnsElements {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.downTextFooter:hover {
+    text-decoration: underline;
+}
+
+.downTextFooter {
+    color: rgb(0, 0, 0);
+}
+
+.lineFooter {
+    width: 305px;
+    background: rgb(255, 158, 5);
+    height: 2px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.endTextFooter {
+    text-align: center;
+}
+
+/* adaptive Header */
+
+.pagers {
+    display: flex;
+}
+
+.pagers2 {
+    display: flex;
+}
+
+/* burger menu */
+
+* {
+    font-family: Montserrat;
+
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.menu > li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.3em 0.5em;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.nav-burger {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #000000;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+
+
+
+
+@media (width < 1570px) {
+    .firstPocketLi {
+        position: absolute;
+        margin-top: -500px;
+        visibility: hidden;
+    }
+
+    .pagers2 {
+        display: none;
+    }
+
+    .nav-burger {
+        display: block;
+    }
+
+    .menu-button-container {
+        margin-top: 5px;
+        display: flex;
+    }
+
+    .header-glav {
+        display: block;
+    }
+
+    .menu {
+        color: #000000;
+        position: absolute;
+        top: 48px;
+        margin-top: 12px;
+
+        right: 0;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        border: 1px solid #000000;
+        height: 1.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-top: 0;
+
+
+        width: 100%;
+        color: #000000;
+        background-color: #fffffff0;
+
+    }
+
+    .menu a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+
+
+        position: relative;
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+
+}
+
+/* заявка */
+@media (width < 960px) {
+
+    .request2btnDiv {
+        display: block;
+        width: 250px;
+    }
+
+    .btnImgMoreViev1 {
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+
+        width: 239px;
+        height: 53px;
+        margin-top: 15px;
+        border: 0px;
+        margin-left: 32px;
+    }
+    .btnUploudFile {
+        display: block;
+    border-radius: 15px;
+    background: rgb(241, 237, 237);
+    width: 229px;
+    height: 53px;
+    margin-top: 0px;
+    border: 0px;
+    margin-left: 13.02%;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.btnTextInDivFile {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-top: 10px;
+    text-align: center;
+}
+}
+@media (width < 860px) {
+    .pagers {
+        display: none;
+    }
+
+    .firstPocketLi {
+        position: relative;
+        visibility: visible;
+    }
+
+    .fersBurgerElements {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+
+        margin-top: 12px;
+        left: 0;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+        margin-left: 0%;
+    }
+
+    .menu-button-container {
+        display: block;
+        height: 100%;
+        width: 30px;
+        margin-top: 15px;
+        margin-left: 0%;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* header */
+
+
+
+
+
+
+
+
+@media (width < 960px) {
+.request2btnDiv {
+        display: block;
+        width: 250px;
+    }
+
+    .btnImgMoreViev1 {
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+
+        width: 239px;
+        height: 53px;
+        margin-top: 15px;
+        border: 0px;
+        margin-left: 32px;
+    }
+    .telHeader,
+    .emailHeader {
+        font-size: 22px;
+    }
+
+    .flexHeaderTelefonAndEmail {
+        margin-top: -5px;
+    }
+
+    .nameIPLogo {
+        font-size: 22px;
+
+    }
+
+    .logoBottomText {
+        font-size: 14px;
+    }
+
+    .infoAboutCompanyHeader {
+        height: 71px;
+        width: 100%;
+        padding-top: 61px;
+    }
+}
+
+@media (width < 886px) {
+    .ferstColumn {
+        display: none;
+    }
+
+    .upFooterElements {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        width: 544px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (width < 820px) {
+    .cardboard {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 620px;
+        border: 1px solid black;
+        margin-top: 62px;
+    }
+
+    .borderIMGGenDir {
+        width: 180px;
+        height: 226px;
+        border: 1px solid black;
+        display: flex;
+        margin-top: 46px;
+        margin-left: 110px;
+    }
+}
+
+
+@media (width < 780px) { 
+     .telHeader,
+    .emailHeader {
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+
+        font-weight: 400;
+        line-height: 3px;
+        letter-spacing: 0%;
+    }
+    .h1UpIMG {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: 0%;
+        padding-top: 54px;
+    }
+
+    .infoAboutCompanyHeader {
+        height: 91px;
+        width: 100%;
+        padding-top: 61px;
+    }
+
+    .garant {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0%;
+        margin-top: -31px;
+    }
+
+    .flexHeaderTelefonAndEmail {
+        display: block;
+        margin-top: 0px;
+    }
+
+    .imgFerstPage {
+
+        height: 500px;
+
+    }
+
+}
+
+@media (width < 667px) {
+    .upFooterElements {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .endTextFooter {
+        font-size: 13px;
+    }
+
+    .thirdthColumn {
+        font-size: 16px;
+    }
+
+    .secondColumn,
+    .ferstColumn {
+        display: none;
+    }
+
+
+}
+@media (width < 500px) {
+
+
+    .downElementsOnTheInput {
+        width: 87.71%;
+        max-width: 1744px;
+        display: block;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .policy {
+        width: 47%;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        display: none;
+    }
+
+    .policy1 {
+        width: 140%;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        display: block;
+
+    }
+
+    .inputPlace {
+        display: flex;
+        margin-top: 105px;
+        width: 80%;
+        max-width: 1684px;
+        height: 187px;
+        border-radius: 15px;
+        border: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+ 
+
+}
+@media (width < 480px) {
+    .infoAboutCompanyNextDiv {
+        width: 87.92%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .infoAboutCompanyHeader {
+        height: 145px;
+        width: 100%;
+        padding-top: 61px;
+    }
+
+    .flexHeaderTelefonAndEmail {
+        margin-top: 25px;
+    }
+
+    .telHeader,
+    .emailHeader {
+        text-align: center;
+    }
+}
+
+@media (width < 420px) {
+    .cardboard {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+        height: 530px;
+        border: 1px solid black;
+        margin-top: 62px;
+    }
+
+    .borderIMGGenDir {
+        width: 180px;
+        height: 226px;
+        border: 1px solid black;
+        display: flex;
+        margin-top: 46px;
+        margin-left: 75px;
+    }
+
+    .rightTextCardBoard>p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    #infoCArdBoardSmoll {
+        font-size: 15px;
+    }
+}
+
+@media (width < 420px) {
+    .lineRequest {
+        width: 20.83%;
+        min-width: 200px;
+        max-width: 400px;
+        background: rgb(255, 158, 5);
+        height: 2px;
+        margin-top: -36px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .policy1 {
+        width: 110%;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        display: block;
+
+    }
+    
+    .upFileAA {
+        font-size: 12px;
+    }
+}
+
+@media (width < 460px) {
+   
+    .infoAboutCompanyNextDiv {
+        width: 87.92%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        justify-content: space-between;
+    }
+    .infoAboutCompanyHeader {
+        height: 145px;
+        width: 100%;
+        padding-top: 61px;
+    }
+    .flexHeaderTelefonAndEmail{
+        margin-top: 25px;
+    }
+    .telHeader,.emailHeader{
+       text-align: center;
+    }
+}
+
+/* Исправление футера для маленьких экранов */
+@media (max-width: 380px) {
+    .upFooterElements {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .thirdthColumn {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .downTextFooter {
+        font-size: 14px;
+    }
+}

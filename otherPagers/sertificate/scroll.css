@@ -1,0 +1,36 @@
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #525252;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #525252;
+    border-radius: 8px;
+    border: 3px solid #999999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #999999;
+}
+
+/* Исправление футера для маленьких экранов */
+@media (max-width: 380px) {
+    .upFooterElements {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .thirdthColumn {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .downTextFooter {
+        font-size: 14px;
+    }
+}

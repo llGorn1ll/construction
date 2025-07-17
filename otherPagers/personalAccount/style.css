@@ -1,0 +1,896 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+a {
+    text-decoration: none;
+}
+
+p,
+a {
+    font-family: Montserrat;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    width: 87.92%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pagers {
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+
+    z-index: 5;
+    background-color: #fff;
+}
+
+
+
+.navElements {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgb(0, 0, 0);
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+.logAndRegElements {
+    color: rgb(107, 88, 88);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.hoverNavElements {
+    height: 110%;
+    padding-top: 16px;
+}
+
+.logRegDiv {
+    padding-top: 16px;
+    height: 110%;
+}
+
+.hoverNavElements:hover {
+    background-color: rgb(231, 231, 231);
+    transition: 1s;
+}
+
+.infoAboutCompanyHeader {
+    height: 91px;
+    width: 100%;
+    padding-top: 61px;
+}
+
+.infoAboutCompanyNextDiv {
+    width: 87.92%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexHeaderTelefonAndEmail {
+    display: flex;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.telHeader {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    padding-right: 27px;
+}
+
+.emailHeader {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.nameIPLogo {
+    font-size: 28px;
+}
+
+.h1Company {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-align: left;
+    text-align: center;
+
+}
+
+.underlineCompany {
+    width: 573px;
+    background: rgb(255, 158, 5);
+    height: 2px;
+    margin-top: -21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.allPhotos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1615px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgPhotos {
+    margin-bottom: 38px;
+}
+
+
+
+/* footer */
+.upFooterElements {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 768px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thirdthColumn {
+    width: 120%;
+}
+
+.topColumnsElements {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.downTextFooter:hover {
+    text-decoration: underline;
+}
+
+.downTextFooter {
+    color: rgb(0, 0, 0);
+}
+
+.lineFooter {
+    width: 305px;
+    background: rgb(255, 158, 5);
+    height: 2px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.endTextFooter {
+    text-align: center;
+}
+/* main site */
+
+form {
+    font-size: 22px;
+    margin: 10px;
+}
+
+button {
+    border: solid, black, 1px;
+    background-color: white;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    margin: 5px 0 0 0;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(255, 184, 69);
+
+}
+
+input {
+    width: 250px;
+    height: 32px;
+    margin: 5px 0px;
+    background-color: #fff;
+    border: none;
+    font-size: 18px;
+    margin-right: 40px;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+label {
+    margin-left: 40px;
+    margin-top: 9px;
+    font-size: 19px;
+}
+.enterNewPassword{
+    display: block;
+    width: 485px;
+    margin-left: 30px;
+}
+.enterOldPassword{
+    display: block;
+    width: 500px;
+    margin-left: 30px;
+}
+.labelChangePassword{
+    margin-left: 122px;
+    font-size: 19px;
+    
+}
+.inputChangePassword{
+    margin-left: 10px;
+    width: 212px;
+    margin-right: 0;
+}
+#newUpdate{
+margin-left: 40px;
+    border-radius: 15px;
+    background: rgb(255, 158, 5);
+    width: 200px;
+    height: 45px;
+    color: white; 
+}
+#newUpdate:hover{
+    background-color: rgb(255, 184, 69);
+}
+#update{
+    margin-left: 40px;
+    border-radius: 15px;
+    background: rgb(255, 158, 5);
+    width: 200px;
+    height: 45px;
+    color: white; 
+}
+#update:hover{
+    background-color: rgb(255, 184, 69);
+}
+.compareBTN{
+
+    border-radius: 15px;
+    background: rgb(255, 158, 5);
+    width: 200px;
+    height: 45px;
+    color: white; 
+    margin-left: 33px;
+}
+.fieldLast{
+    width: 560px;
+    clear:both;
+    text-align:right;
+}
+.newLabel{
+    margin-left: 130px;
+    
+ 
+}
+.newpassword{
+    width: 212px; 
+    margin-right: 0;
+    margin-top: 16px;
+  
+}
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+
+
+.imgBg {
+    background: url("./bgContact.png") no-repeat;
+    height: 730px;
+    margin-top: 0px;
+    background-position: center center;
+    /* определяет размер изображения на странице */
+    background-size: cover;
+    /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+    background-repeat: no-repeat;
+    /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+    вместе с остальной частью страницы или будет фиксированным */
+    background-attachment: scroll;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+.centralDiv {
+    width: 550px;
+    height: 550px;
+    background-color: rgba(5, 5, 5, 0.67);
+    margin: 75px auto 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+label, h1{
+    color: white;
+}
+.field {
+    clear:both;
+    text-align:right;
+}
+#field1{
+    margin-top: 50px;
+}
+label {
+    float:left;
+}
+
+
+
+/* adaptive Header */
+
+.pagers {
+    display: flex;
+}
+.pagers2{
+    display: flex;
+}
+/* burger menu */
+
+*{
+    font-family: Montserrat;
+
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.menu > li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.3em 0.5em;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+.nav-burger{
+	display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #000000;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+
+
+
+
+@media (width < 1570px) {
+.firstPocketLi{
+    position: absolute;
+    margin-top: -500px;
+    visibility: hidden;
+}
+.pagers2{
+    display: none;
+}
+
+.nav-burger{
+    display: block;
+}
+.menu-button-container {
+    margin-top: 5px;
+    display: flex;
+}
+.header-glav{
+    display: block;
+}
+.menu {
+    color: #000000;
+position: absolute;
+top: 48px;
+margin-top: 12px;
+
+right: 0;
+flex-direction: column;
+width: 200px;
+justify-content: center;
+align-items: center;
+z-index: 99;
+
+}
+#menu-toggle ~ .menu li {
+height: 0;
+margin: 0;
+padding: 0;
+border: 0;
+transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+#menu-toggle:checked ~ .menu li {
+border: 1px solid #000000;
+height: 1.5em;
+padding: 0.5em;
+transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.menu > li {
+display: flex;
+justify-content: center;
+margin: 0;
+padding-top:0;
+
+
+width: 100%;
+  color: #000000;
+background-color: #fffffff0;
+
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   
+
+    position: relative;
+}
+.menu > li:not(:last-child) {
+border-bottom: 1px solid #444;
+}
+
+}
+@media (width < 900px) {
+    .pagers{
+        display: none;
+    }
+    .firstPocketLi{
+        position: relative;
+        visibility: visible;
+    }
+    .fersBurgerElements{
+        display: block;
+    }
+    .menu {
+        position: absolute;
+       
+        margin-top: 12px;
+        left: 0;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+        margin-left: 0%;
+        }
+        .menu-button-container {
+            display: block;
+            height: 100%;
+            width: 30px;
+            margin-top:15px;
+            margin-left:0%;
+            cursor: pointer;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          
+}
+/* header */
+
+
+
+
+
+@media (width < 960px) {
+  
+.telHeader,.emailHeader{
+    font-size: 22px;
+}
+.flexHeaderTelefonAndEmail{
+    margin-top: -5px;
+}
+.nameIPLogo{
+    font-size: 22px;
+
+}
+.logoBottomText{
+    font-size: 14px;
+}
+.infoAboutCompanyHeader {
+    height: 71px;
+    width: 100%;
+    padding-top: 61px;
+}
+}
+@media (width < 886px) {
+    .ferstColumn{
+        display: none;
+       }  
+       .upFooterElements {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    
+        width: 544px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (width < 780px) {
+    .imgBg {
+        background: url("./bgContact.png") no-repeat;
+        height: 730px;
+        margin-top: -30px;
+        background-position: center center;
+        /* определяет размер изображения на странице */
+        background-size: cover;
+        /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+        background-repeat: no-repeat;
+        /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+        вместе с остальной частью страницы или будет фиксированным */
+        background-attachment: scroll;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .infoAboutCompanyHeader {
+        height: 91px;
+        width: 100%;
+        padding-top: 61px;
+    } 
+ 
+  
+    .flexHeaderTelefonAndEmail{
+        display: block;
+        margin-top: 0px;
+    }
+      .telHeader,.emailHeader{
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        
+        font-weight: 400;
+        line-height: 3px;
+        letter-spacing: 0%;
+    }
+  
+}
+
+@media (width < 667px) {
+    .upFooterElements {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr ;
+       
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .endTextFooter{
+        font-size: 13px;
+    }
+    .thirdthColumn{
+        font-size: 16px;
+    }
+   .secondColumn,.ferstColumn{
+    display: none;
+   }
+ 
+}
+@media (width < 607px) {
+    .centralDiv {
+        width: 450px;
+        padding:20px 10px 10px 10px;
+        margin-top: 20px;
+    }
+    .labelChangePassword{
+        margin-left: 74px;
+        font-size: 19px;
+        
+    }
+    .inputChangePassword{
+        margin-left: 10px;
+        width: 162px;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .compareBTN{
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+        width: 170px;
+        height: 38px;
+        color: white; 
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    input{
+        font-size: 16px;
+    }
+    .newLabel{
+        margin-left: 77px;
+        font-size: 19px;
+    }
+    .newpassword{
+        margin-left: 10px;
+        width: 162px;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    #newUpdate{
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+        width: 170px;
+        height: 38px;
+        color: white; 
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .enterOldPassword{
+        display: block;
+        width: 390px;
+        margin-left: 30px;
+    }
+    .imgBg {
+        background: url("./bgContact.png") no-repeat;
+        height: 580px;
+        margin-top: -30px;
+        background-position: center center;
+        /* определяет размер изображения на странице */
+        background-size: cover;
+        /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+        background-repeat: no-repeat;
+        /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+        вместе с остальной частью страницы или будет фиксированным */
+        background-attachment: scroll;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+}
+@media (width < 485px) {
+    .imgBg {
+        background: url("./bgContact.png") no-repeat;
+        height: 660px;
+        margin-top: -30px;
+        background-position: center center;
+        /* определяет размер изображения на странице */
+        background-size: cover;
+        /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+        background-repeat: no-repeat;
+        /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+        вместе с остальной частью страницы или будет фиксированным */
+        background-attachment: scroll;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    
+    .centralDiv {
+        width: 350px;
+        padding:10px 0px 0px 0px;
+        margin-top: -30px;
+        height: 720px;
+    }
+    .field {
+        clear:none;
+        text-align:center;
+        margin-top: 0;
+    }
+    #field1{
+        margin-top: 0px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    label{
+margin-left: 35px;    margin-right: 40px;
+    }
+    input {
+        margin-right: 10px;
+    }
+
+    .labelChangePassword{
+        margin-left: 10px;
+        font-size: 19px;
+        display: block;
+        margin-top: -10px;
+    }
+    .inputChangePassword{
+        margin-left: 10px;
+        width: 250px;
+        margin-right: 0;
+        margin-top: 23px;
+        display: block;
+    }
+    .enterOldPassword{
+    
+        width: 310px;
+        margin-left: 25px;
+    }
+   
+    .compareBTN{
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+        width: 270px;
+        height: 38px;
+        color: white; 
+        margin-left: 10px;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    .newLabel{
+        margin-left: 10px;
+       
+        font-size: 19px;
+        
+    }
+    .newpassword{
+        margin-left: 10px;
+        width: 250px;
+        margin-right: 0;
+        margin-top: 10px;
+     
+    }
+    #newUpdate{
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+        width: 270px;
+        height: 38px;
+        color: white; 
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    #update{
+        margin-left: 35px;
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+        width: 200px;
+        height: 45px;
+        color: white; 
+    }
+    .enterNewPassword{
+        display: block;
+        width: 310px;
+        margin-left: 25px;
+    }
+ 
+}
+@media (width < 480px) {
+   
+    .infoAboutCompanyNextDiv {
+        width: 87.92%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        justify-content: space-between;
+    }
+    .infoAboutCompanyHeader {
+        height: 145px;
+        width: 100%;
+        padding-top: 61px;
+    }
+    .flexHeaderTelefonAndEmail{
+        margin-top: 25px;
+    }
+    .telHeader,.emailHeader{
+       text-align: center;
+    }
+}
+
+/* Исправление футера для маленьких экранов */
+@media (max-width: 380px) {
+    .upFooterElements {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .thirdthColumn {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .downTextFooter {
+        font-size: 14px;
+    }
+}
