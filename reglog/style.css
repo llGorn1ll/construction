@@ -1,0 +1,1132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+a {
+    text-decoration: none;
+}
+
+p,
+a {
+    font-family: Montserrat;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    width: 87.92%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pagers {
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+
+    z-index: 5;
+    background-color: #fff;
+}
+
+.navElements {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgb(0, 0, 0);
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+.logAndRegElements {
+    color: rgb(107, 88, 88);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.hoverNavElements {
+    height: 110%;
+    padding-top: 16px;
+}
+
+.logRegDiv {
+    padding-top: 16px;
+    height: 110%;
+}
+
+.hoverNavElements:hover {
+    background-color: rgb(231, 231, 231);
+    transition: 1s;
+}
+
+.infoAboutCompanyHeader {
+    height: 91px;
+    width: 100%;
+    padding-top: 61px;
+}
+
+.infoAboutCompanyNextDiv {
+    width: 87.92%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexHeaderTelefonAndEmail {
+    display: flex;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.telHeader {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    padding-right: 27px;
+}
+
+.emailHeader {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.nameIPLogo {
+    font-size: 28px;
+}
+
+/* body */
+.imgBg {
+    background: url("./bgContact.png") no-repeat;
+    height: 800px;
+    margin-top: 0px;
+    background-position: center center;
+    /* определяет размер изображения на странице */
+    background-size: cover;
+    /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+    background-repeat: no-repeat;
+    /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+    вместе с остальной частью страницы или будет фиксированным */
+    background-attachment: scroll;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.imgBg2 {
+    background: url("./bgContact.png") no-repeat;
+    height: 730px;
+    margin-top: 0px;
+    background-position: center center;
+    /* определяет размер изображения на странице */
+    background-size: cover;
+    /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+    background-repeat: no-repeat;
+    /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+    вместе с остальной частью страницы или будет фиксированным */
+    background-attachment: scroll;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.divElementRegBack {
+    width: 700px;
+    height: 730px;
+    background-color: rgba(5, 5, 5, 0.67);
+    margin: 75px auto 0 auto;
+
+}
+
+.divElementRegBack2 {
+
+    height: 390px;
+    background-color: rgba(5, 5, 5, 0.67);
+    margin: 75px auto 0 auto;
+    width: 700px;
+}
+
+span {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.h1Reg {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+.underLineReg {
+    width: 315px;
+    background: rgb(255, 158, 5);
+    height: 2px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -26px;
+}
+
+.flexINputsForm {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 0 auto;
+}
+
+.input::placeholder {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+}
+
+.aPLogText {
+    text-align: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31px;
+    color: rgb(255, 255, 255);
+}
+
+.aLog {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+button {
+    border-radius: 15px;
+    background: rgb(255, 158, 5);
+    width: 259px;
+    height: 53px;
+    font-family: Montserrat;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-left: 22.5%;
+
+}
+button:hover{
+ background: rgb(255, 174, 44);
+ 
+}
+.loginSpan {
+    margin-right: 52px;
+}
+
+.passwordSpan {
+    margin-right: 36px;
+}
+
+.surnameSpan {
+    margin-right: 9px;
+}
+
+.nameSpan {
+    margin-right: 79px;
+}
+
+.patronymicSpan {
+    margin-right: 10px;
+}
+
+.emailSpan {
+    margin-right: 62px;
+}
+
+.telSpan {
+    margin-right: 18px;
+}
+
+.formAndBTNLog {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.formAndBTNLog form {
+    display: inline-block;
+    text-align: left;
+}
+
+.formAndBTNLog input {
+    margin-left: 10px;
+}
+
+.policy1 {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 13px;
+    color: #e0e0e0;
+    text-align: center;
+    margin: -5px auto 15px;
+    line-height: 1.5;
+    width: 440px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.policy1 a {
+    color: #ff9e05;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.policy1 a:hover {
+    color: #ffd580;
+}
+/* footer */
+.upFooterElements {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 768px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thirdthColumn {
+    width: 120%;
+}
+
+.topColumnsElements {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.downTextFooter:hover {
+    text-decoration: underline;
+}
+
+.downTextFooter {
+    color: rgb(0, 0, 0);
+}
+
+.lineFooter {
+    width: 305px;
+    background: rgb(255, 158, 5);
+    height: 2px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.endTextFooter {
+    text-align: center;
+}
+
+/* adaptive Header */
+
+.pagers {
+    display: flex;
+}
+
+/* burger menu */
+
+* {
+    font-family: Montserrat;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.menu > li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.3em 0.5em;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.nav-burger {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #000000;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+@media (width < 821px) {
+    .firstPocketLi {
+        position: absolute;
+        margin-top: -500px;
+        visibility: hidden;
+    }
+
+
+    .nav-burger {
+        display: block;
+    }
+
+    .menu-button-container {
+        margin-top: 5px;
+        display: flex;
+    }
+
+    .header-glav {
+        display: block;
+    }
+
+    .menu {
+        color: #000000;
+        position: absolute;
+        top: 48px;
+        margin-top: 12px;
+
+        right: 0;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        border: 1px solid #000000;
+        height: 1.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-top: 0;
+
+
+        width: 100%;
+        color: #000000;
+        background-color: #fffffff0;
+
+    }
+
+    .menu a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+
+
+        position: relative;
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+
+
+    .pagers {
+        display: none;
+    }
+
+    .firstPocketLi {
+        position: relative;
+        visibility: visible;
+    }
+
+    .fersBurgerElements {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+
+        margin-top: 12px;
+        left: 0;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+        margin-left: 0%;
+    }
+
+    .menu-button-container {
+        display: block;
+        height: 100%;
+        width: 30px;
+        margin-top: 15px;
+        margin-left: 0%;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* header */
+
+
+@media (width < 1600px) {
+
+    .customerd234 {
+        width: 380px;
+        display: block;
+        place-items: center;
+        justify-content: space-between;
+
+    }
+
+    .thirdDivCustomers {
+        width: 385PX;
+    }
+
+    .outsideDivCustomer234 {
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+    }
+
+    .homePageImgHouse {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1020px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 9px;
+
+    }
+}
+
+@media (width < 1050px) {
+
+
+    .homePageImgHouse {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 460px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 9px;
+
+    }
+
+    .imgFerstPage {
+
+        height: 630px;
+        margin-top: -66px;
+        background-position: center center;
+        /* определяет размер изображения на странице */
+        background-size: cover;
+        /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+        background-repeat: no-repeat;
+        /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+        вместе с остальной частью страницы или будет фиксированным */
+        background-attachment: scroll;
+    }
+
+    .imgPhotos {
+        width: 450px;
+    }
+}
+
+
+
+@media (width < 960px) {
+
+    .request2btnDiv {
+        display: block;
+        width: 250px;
+    }
+
+    .btnImgMoreViev1 {
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+
+        width: 239px;
+        height: 53px;
+        margin-top: 15px;
+        border: 0px;
+        margin-left: 32px;
+    }
+}
+
+@media (width < 960px) {
+
+    .telHeader,
+    .emailHeader {
+        font-size: 22px;
+    }
+
+    .flexHeaderTelefonAndEmail {
+        margin-top: -5px;
+    }
+
+    .nameIPLogo {
+        font-size: 22px;
+
+    }
+
+    .logoBottomText {
+        font-size: 14px;
+    }
+
+    .infoAboutCompanyHeader {
+        height: 71px;
+        width: 100%;
+        padding-top: 61px;
+    }
+}
+
+@media (width < 886px) {
+    .ferstColumn {
+        display: none;
+    }
+
+    .upFooterElements {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        width: 544px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (width < 780px) {
+
+    .telHeader,
+    .emailHeader {
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+
+        font-weight: 400;
+        line-height: 3px;
+        letter-spacing: 0%;
+    }
+
+    .imgBg {
+        background: url("./bgContact.png") no-repeat;
+        height: 730px;
+        margin-top: -30px;
+        background-position: center center;
+        /* определяет размер изображения на странице */
+        background-size: cover;
+        /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+        background-repeat: no-repeat;
+        /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+        вместе с остальной частью страницы или будет фиксированным */
+        background-attachment: scroll;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    .imgBg2 {
+        background: url("./bgContact.png") no-repeat;
+        height: 730px;
+        margin-top: -30px;
+        background-position: center center;
+        /* определяет размер изображения на странице */
+        background-size: cover;
+        /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+        background-repeat: no-repeat;
+        /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+        вместе с остальной частью страницы или будет фиксированным */
+        background-attachment: scroll;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .divElementRegBack {
+        width: 500px;
+        height: 650px;
+        background-color: rgba(5, 5, 5, 0.67);
+        margin: 22px auto 0 auto;
+
+    }
+}
+
+@media (width < 780px) {
+    .h1UpIMG {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: 0%;
+        padding-top: 54px;
+    }
+
+    .infoAboutCompanyHeader {
+        height: 91px;
+        width: 100%;
+        padding-top: 61px;
+    }
+
+    .garant {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0%;
+        margin-top: -31px;
+    }
+
+    .flexHeaderTelefonAndEmail {
+        display: block;
+        margin-top: 0px;
+    }
+
+    .imgFerstPage {
+
+        height: 500px;
+
+    }
+
+    .formAndBTNLog {
+        max-width: 324px;
+        padding: 0 10px;
+    }
+    
+    .policy1 {
+        width: 266px;
+        font-size: 11px;
+    }
+
+    .divElementRegBack2 {
+        height: 400px;
+        background-color: rgba(5, 5, 5, 0.67);
+        margin: 22px auto 0 auto;
+        width: 380px;
+       
+    }
+
+    .imgBg {
+       
+        height: 790px;
+       
+    }
+    .imgBg2 {
+        background: url("./bgContact.png") no-repeat;
+        height: 600px;
+        margin-top: -30px;
+        background-position: center center;
+        /* определяет размер изображения на странице */
+        background-size: cover;
+        /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+        background-repeat: no-repeat;
+        /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+        вместе с остальной частью страницы или будет фиксированным */
+        background-attachment: scroll;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .divElementRegBack {
+        width: 400px;
+        height:750px;
+        background-color: rgba(5, 5, 5, 0.67);
+        margin: 22px auto 0 auto;
+
+    }
+
+    .loginSpan,
+    .passwordSpan,
+    .surnameSpan,
+    .nameSpan,
+    .patronymicSpan,
+    .emailSpan,
+    .telSpan {
+        display: inline-block;
+        justify-content: start;
+        line-height: 23px;
+        margin-left: 9px;
+        
+        font-size: 14px;
+    }
+    span{
+          margin-left: 20px;
+        left: 0;
+    }
+
+    button {
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+        width: 259px;
+        height: 53px;
+        font-family: Montserrat;
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+        margin-left: 12%;
+
+    }
+    .aPLogText {
+        text-align: center;
+        align-items: center;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgb(255, 255, 255);
+         margin-top: 10px;
+    }
+    input {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 31px;
+        color: rgb(0, 0, 0);
+        width: 250px;
+        max-width: 250px;
+        min-width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -18px;
+    }
+    button {
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+        width: 180px;
+        height: 46px;
+        font-family: Montserrat;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
+
+
+
+
+@media (width < 667px) {
+    .upFooterElements {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .endTextFooter {
+        font-size: 13px;
+    }
+
+    .thirdthColumn {
+        font-size: 16px;
+    }
+
+    .secondColumn,
+    .ferstColumn {
+        display: none;
+    }
+
+    .h1Company {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-align: left;
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
+@media (width < 563px) {
+    .labelComplitedHoumse {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 55px;
+        letter-spacing: 0%;
+    }
+
+    .lineComplitedHoumse {
+        width: 18.38%;
+        min-width: 200px;
+        max-width: 400px;
+        height: 2px;
+        background: rgb(255, 158, 5);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -42px;
+        margin-bottom: 71px;
+    }
+}
+
+
+
+
+
+
+@media (width < 480px) {
+
+    .infoAboutCompanyNextDiv {
+        width: 87.92%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .infoAboutCompanyHeader {
+        height: 145px;
+        width: 100%;
+        padding-top: 61px;
+    }
+
+    .flexHeaderTelefonAndEmail {
+        margin-top: 25px;
+    }
+
+    .telHeader,
+    .emailHeader {
+        text-align: center;
+    }
+}
+
+@media (width < 430px) {
+    .formAndBTNLog {
+        max-width: 286px;
+    }
+    
+   
+
+    .imgBg2 {
+        background: url("./bgContact.png") no-repeat;
+        height: 470px;
+        margin-top: -30px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    span {
+        line-height: 23px;
+    }
+
+    .divElementRegBack2 {
+        height: 380px;
+        background-color: rgba(5, 5, 5, 0.67);
+        margin: 22px auto 0 auto;
+        width: 300px;
+    }
+
+    .divElementRegBack {
+        width: 300px;
+    
+        background-color: rgba(5, 5, 5, 0.67);
+        margin: 22px auto 0 auto;
+    }
+
+    .h1Reg {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 55px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .underLineReg {
+        width: 255px;
+        background: rgb(255, 158, 5);
+        height: 2px;
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+    }
+
+    .input::placeholder {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 31px;
+        color: rgb(0, 0, 0);
+    }
+
+    input {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 31px;
+        color: rgb(0, 0, 0);
+        width: 250px;
+    }
+
+    button {
+        border-radius: 15px;
+        background: rgb(255, 158, 5);
+        width: 180px;
+        height: 46px;
+        font-family: Montserrat;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        display: block;
+        margin: 0 auto;
+    }
+
+    .aPLogText {
+        text-align: center;
+        align-items: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+/* Исправление футера для маленьких экранов */
+@media (max-width: 380px) {
+    .upFooterElements {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .thirdthColumn {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .downTextFooter {
+        font-size: 14px;
+    }
+}
